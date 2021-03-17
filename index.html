@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Redesign of Emoji App</title>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h2 class="title-header"><span id="user-name" class="user-name"></span><span id="letter-ess" class="letter-ess">'s</span> Emoji app</h2>
+	</header>
+
+	<section class="main">
+
+		<div id="display-emojis">
+			
+		</div>
+
+		<div>
+			<input name="" required="" id="name-input" placeholder="Enter your name here"/>
+			<p class="error-message">Kindly enter valid values</p>	
+		</div>
+
+		<div>
+			<button class="add" id="enter-name">Enter</button>
+		</div>
+
+		<div>
+			<input name="" required="" id="emoji-input" placeholder="Paste an Emoji in here 🥳"/>
+			<p class="notice-text">You can get one from <a href="https://getemoji.com/">here</a></p>		
+		</div>
+
+		<div class="add-buttons">
+			<button class="add" id="add-begin">Add to beginning</button>
+			<button class="add" id="add-end">Add to end</button>
+		</div>
+
+		<div class="remove-buttons">
+			<button class="remove" id="remove-begin">Remove from beginning</button>
+			<button class="remove" id = "remove-end">Remove from end</button>
+		</div>
+
+
+	</section>
+
+	<div class="footer">
+		<p>Copyright 2020. All Emojis gotten from <a href="https://getemoji.com/">getemoji.com</a></p>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
